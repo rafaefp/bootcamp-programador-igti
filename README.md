@@ -16,7 +16,7 @@ O aluno deverá criar um programa que informará se o número é primo ou não. 
 
 ##### Desafio
 
-O desafio consiste em desenvolver funções em JavaScript para realizar alguns processamentos em cima de uma lista de funcionários de uma empresa. Cada funcionário é representado pelas seguintes informações:
+O desafio consiste em desenvolver funções em <u>JavaScript</u> para realizar alguns processamentos em cima de uma lista de funcionários de uma empresa. Cada funcionário é representado pelas seguintes informações:
 
 - Nome: nome do funcionário;
 - Salário: salário do funcionário;
@@ -47,3 +47,26 @@ O resultado das funções pode ser impresso no próprio terminal, ou então most
 
 
 
+## Módulo 2 e 3
+
+##### Trabalho Prático
+
+O aluno deverá criar um programa em <u>Java</u> para auxiliar o dono de uma pizzaria na gestão do seu estabelecimento.
+
+O programa deverá ter as seguintes funcionalidades:
+
+1. **Lista de Contatos**
+
+   Permitir ao usuário armazenar uma lista com o nome dos seus clientes, sendo possível inserir, remover e consultar nomes nessa lista.
+
+2. **Fila de Pedidos**
+
+   Permitir ao usuário armazenar uma fila com o nome dos clientes por ordem de chegada, de forma que o primeiro cliente a entrar na lista deve ser o primeiro a sair. Deve ser possível inserir um nome na fila e remover o próximo a ser atendido.
+
+3. **Organizar as Entregas**
+
+   O programa deve receber uma lista de números, cada um representando a distância da casa do cliente para a pizzaria em KM. A entrega dos pedidos será realizada de acordo com a distância, onde os pedidos mais próximos serão entregues primeiro. Por isso, o programa deve retornar uma pilha com os pedidos que sairão primeiro no topo. O programa deve, ainda, permitir que esses itens sejam desempilhados, até que a pilha esteja vazia.
+
+O programa deve apresentar ao usuário um menu pelo terminal, com opções que permitam que ele execute as funcionalidades solicitadas anteriormente.
+
+**Eu criei a classe principal com o método *Main* somente para chamar as outras classes. Foram criadas mais 4 classes dentro do pacote Pizzaria (*ListaContatos.java*, *FilaPedidos.java*, *EntregasMotoboy.java* e *Menu.java*). Na classe *ListaContatos.java* pratiquei os conceitos de <u>ArrayList</u>, em seguida na classe *FilaPedidos.java*, para atender a tarefa, coloquei em prática a estrutura de dados <u>Queue</u>, fazendo analogia ao FIFO (First-in First-out) com a pizzaria onde clientes que chegam primeiro, são atendidos primeiro. Já na classe *EntregasMotoboy.java* utilizei um pouco do conceito de <u>Stack</u>, porém o exercício solicitava uma ordenação dos pedidos para que fossem entregues por ordem de distância, assim precisei ordenar os pedidos na pilha para que o pedido com distância mais próxima fosse o primeiro pedido a sair da pilha e consequentemente ser entregue.**
