@@ -10,11 +10,11 @@ Neste repositório irei armazenar todos os códigos e implementações criadas p
 
 ## Módulo 1
 
-##### Trabalho Prático
+### Trabalho Prático
 
 O aluno deverá criar um programa que informará se o número é primo ou não. Esse número deve ser definido diretamente em uma variável no código. Ao rodar o programa, ele deve listar no terminal se o número colocado na variável é primo ou não.
 
-##### Desafio
+### Desafio
 
 O desafio consiste em desenvolver funções em <u>JavaScript</u> para realizar alguns processamentos em cima de uma lista de funcionários de uma empresa. Cada funcionário é representado pelas seguintes informações:
 
@@ -49,7 +49,7 @@ O resultado das funções pode ser impresso no próprio terminal, ou então most
 
 ## Módulo 2 e 3
 
-##### Trabalho Prático
+### Trabalho Prático
 
 O aluno deverá criar um programa em <u>Java</u> para auxiliar o dono de uma pizzaria na gestão do seu estabelecimento.
 
@@ -70,3 +70,13 @@ O programa deverá ter as seguintes funcionalidades:
 O programa deve apresentar ao usuário um menu pelo terminal, com opções que permitam que ele execute as funcionalidades solicitadas anteriormente.
 
 **Eu criei a classe principal com o método *Main* somente para chamar as outras classes. Foram criadas mais 4 classes dentro do pacote Pizzaria (*ListaContatos.java*, *FilaPedidos.java*, *EntregasMotoboy.java* e *Menu.java*). Na classe *ListaContatos.java* pratiquei os conceitos de <u>ArrayList</u>, em seguida na classe *FilaPedidos.java*, para atender a tarefa, coloquei em prática a estrutura de dados <u>Queue</u>, fazendo analogia ao FIFO (First-in First-out) com a pizzaria onde clientes que chegam primeiro, são atendidos primeiro. Já na classe *EntregasMotoboy.java* utilizei um pouco do conceito de <u>Stack</u>, porém o exercício solicitava uma ordenação dos pedidos para que fossem entregues por ordem de distância, assim precisei ordenar os pedidos na pilha para que o pedido com distância mais próxima fosse o primeiro pedido a sair da pilha e consequentemente ser entregue.**
+
+### Desafio
+
+Desenvolver um programa em <u>Java</u> utilizando os conceitos de orientação a objetos para auxiliar na gestão de uma concessionária de veículos.
+
+O programa deve permitir cadastrar os carros e motos que a concessionária possui, assim como o vendedor responsável por vender cada um desses itens. Pelo programa, também deve ser possível cadastrar clientes dessa concessionária. Na classe carro e moto, é preciso ter um campo que representa  o cliente que comprou o veículo. Depois, no programa, deve existir uma opção no qual o usuário consiga determinar que um cliente adquiriu um bem.
+
+Caso queira exercitar mais os conceitos, o aluno pode criar uma classe abstrata chamada Pessoa, e fazer com que Cliente e Vendedor herdem dela. Também é possível criar uma classe abstrata chamada Veículo e fazer com que Carro e Moto herdem dela. Ao consultar carros, motos, clientes ou vendedores, basta imprimir no terminal a lista com essas informações.
+
+**Construí uma solução com duas classes abstratas, como solicitado no exercício, e dividi as classes que herdavam. Criei um menu com as opções e utilizei os vários conceitos que foram ensinados no curso, como polimorfismo, herança, sobrescrita, encapsulamento, entre outros.**
