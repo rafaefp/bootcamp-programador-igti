@@ -80,3 +80,50 @@ O programa deve permitir cadastrar os carros e motos que a concessionária possu
 Caso queira exercitar mais os conceitos, o aluno pode criar uma classe abstrata chamada Pessoa, e fazer com que Cliente e Vendedor herdem dela. Também é possível criar uma classe abstrata chamada Veículo e fazer com que Carro e Moto herdem dela. Ao consultar carros, motos, clientes ou vendedores, basta imprimir no terminal a lista com essas informações.
 
 **Construí uma solução com duas classes abstratas, como solicitado no exercício, e dividi as classes que herdavam. Criei um menu com as opções e utilizei os vários conceitos que foram ensinados no curso, como polimorfismo, herança, sobrescrita, encapsulamento, entre outros.**
+
+
+
+## Módulo 4
+
+### Desafio
+
+Desenvolver um programa em Python que terá duas listas, que representam clientes e produtos. O programa deverá:
+
+1. Ler do usuário o nome do cliente e pesquisar na lista esse nome, até que seja digitado um cliente existente. A busca poderá ser feita por parte do nome e deverá ser mostrado para o usuário o primeiro nome encontrado ou a mensagem: "Não encontrei esse nome.". Somente passar para o passo 2 se algum cliente for encontrado.
+
+2. Pedir a lista de produtos e sua quantidade. 
+
+3. Fazer os seguintes cálculos:
+
+   a. Imposto para cada item. O valor do imposto é de 10% do valor do item e deverá ser multiplicado pela quantidade daquele item.
+
+   b. Total do item.
+
+   c. Total da nota fiscal.
+
+4. Fazer um relatório com o layout abaixo:
+
+   ===============================
+
+   Nota fiscal
+
+   Cliente: Maria de Fátima
+
+   Itens comprados
+
+   Computador - Quantidade: 1 - Valor do imposto: R$ 100.05 - Valor Total: R$ 1100.55
+
+   Mouse - Quantidade: 2 - Valor do imposto: R$ 12.01 - Valor Total: R$ 264.22
+
+   Total da Nota: R$ 1364.77
+
+   Volte Sempre
+
+   ===============================
+
+   **Solução entregue como solicitada.**
+
+
+
+
+
