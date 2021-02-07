@@ -125,5 +125,26 @@ Desenvolver um programa em Python que terá duas listas, que representam cliente
 
 
 
+## Módulo Final
+
+### Desafio
+
+O desafio consiste em desenvolver um sistema para controle de folha de pagamento de uma empresa, conforme os detalhes abaixo. O aluno deverá desenvolver o mesmo sistema em cada uma das três linguagens de programação estudadas no Bootcamp: JavaScript com Node.js, Java e Python.
+
+O aluno deverá desenvolver um sistema para controle de folha de pagamento de funcionários de uma empresa. O programa deverá fornecer um menu de interação pelo terminal ao usuário, com as seguintes opções:
+
+1. Cadastrar funcionário
+2. Imprimir contracheque
+
+Na opção 1, o programa deverá pedir ao usuário que digite o nome e o salário bruto do funcionário. Esse funcionário deve ser armazenado em uma lista.
+
+Na opção 2, o programa deverá perguntar ao usuário qual o índice do funcionário que ele deseja imprimir o contracheque.
+
+Após o usuário digitar o índice , programa deverá realizar os cálculos abaixo para informar ao funcionário os descontos que ele terá no seu salário. Para simplificar, o programa deverá calcular somente os descontos do INSS e do IRRF, sem considerar variáveis adicionais, como por exemplo, número de dependentes.
+
+O programa desenvolvido deverá imprimir no terminal o contracheque do funcionário selecionado na opção 2, mostrando seu salário bruto, o valor de desconto do INSS, o valor de desconto do IRRF e, por fim, seu salário líquido.
+
+**Desenvolvi a solução nas 3 linguagens propostas, utilizei a mesma lógica para todas e adaptei a lógica a cada linguagem de programação.** 
+
 
 
